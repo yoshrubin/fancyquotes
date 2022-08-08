@@ -442,6 +442,6 @@ window.onload = (event) => {
 
 function printQuote() {
   const randomIndex = Math.floor(Math.random() * quotes.length);
-  console.log(quotes[randomIndex]);
-  document.getElementById("quote").innerHTML = quotes[randomIndex];
+  const randomQuote = quotes[randomIndex];
+  document.getElementById("quote").innerHTML = randomQuote;
 }
